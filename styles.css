@@ -1,2 +1,111 @@
 /* Your CSS styles here! */
+body {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  background-image: url("https://dbackdrop.co.uk/cdn/shop/products/DHP-2251658929084_2_1200x1200.jpg?v=1626413198");
+}
 
+header {
+  display: flex;
+  background-color: #46828b;
+  color: white;
+  justify-content: space-between;
+}
+header a {
+  padding: 2.5em;
+  color: white;
+}
+
+header h1 {
+  background: url("https://static-00.iconduck.com/assets.00/doctor-icon-2048x2048-g71dy4ps.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding: 0.25em 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#notice {
+  border-radius: 25px;
+  border: 4px solid #aac4f8;
+  padding: 2%;
+  width: em;
+  height: em;
+  margin-top: 2%;
+  background-color: #aac4f8;
+}
+
+nav {
+  display: flex;
+  background: #5a5a5a;
+  color: white;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #5a5a5a;
+}
+
+li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: #343434;
+}
+
+fieldset {
+  background-color: #9cc5e9;
+  margin: 1rem;
+}
+
+legend {
+  background-color: #787a7b;
+  color: white;
+}
+
+input,
+button {
+  margin: 0.4rem;
+}
+
+#welcome h2,
+#enquiry h2 {
+  text-align: center;
+  background-color: #46828b;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+#welcome img,
+#welcome p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
+
+#tutorial {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  text-align: center;
+  width: 75%;
+  border: 6px solid #787a7b;
+  background-color: #d1d1d1;
+  padding-bottom: 2em;
+}
